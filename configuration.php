@@ -1,6 +1,6 @@
 <?php
 class JConfig {
-	public $offline = '1';
+	public $offline = '0';
 	public $offline_message = '這個網站目前關閉進行維護中。<br />請之後再回來觀看。';
 	public $display_offline_message = '1';
 	public $offline_image = '';
@@ -21,7 +21,7 @@ class JConfig {
 	public $secret = 'r0wd2lyQzk84YrvU';
 	public $gzip = '0';
 	public $error_reporting = 'default';
-	public $helpurl = 'http://help.joomla.org/proxy/index.php?option=com_help&keyref=Help{major}{minor}:{keyref}';
+	public $helpurl = 'https://help.joomla.org/proxy?keyref=Help{major}{minor}:{keyref}&lang={langcode}';
 	public $ftp_host = '';
 	public $ftp_port = '';
 	public $ftp_user = 'sense';
@@ -83,4 +83,14 @@ class JConfig {
 	public $cookie_domain = '';
 	public $cookie_path = '';
 	public $asset_id = '1';
+	public $redis_persist = '1';
+	public $redis_server_host = 'localhost';
+	public $redis_server_port = '6379';
+	public $redis_server_auth = '';
+	public $redis_server_db = '0';
+	public $cache_platformprefix = '0';
+	public $massmailoff = '0';
+	public $replyto = '';
+	public $replytoname = '';
+	public $shared_session = '0';
 }
