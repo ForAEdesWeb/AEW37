@@ -4,7 +4,7 @@ class JConfig {
 	public $offline_message = '這個網站目前關閉進行維護中。<br />請之後再回來觀看。';
 	public $display_offline_message = '1';
 	public $offline_image = '';
-	public $sitename = '漢妮，愛的印拓拳腳行';
+	public $sitename = '社團法人台中市漢妮之家公益發展協會';
 	public $editor = 'tinymce';
 	public $captcha = '0';
 	public $list_limit = '20';
